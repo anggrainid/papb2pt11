@@ -22,11 +22,13 @@ public class PulseAnimationView extends View{
     private float mY;
 
     private static final int ANIMATION_DURATION = 4000;
-    private static final long ANIMATION_DELAY = 1000; //jarak anatar animation karena kita ada 2 objek
+    private static final long ANIMATION_DELAY = 1000; //jarak anatar animation
+    // karena kita ada 2 objek
 
     private AnimatorSet mPulseAnimatorSet = new AnimatorSet();
 
     public PulseAnimationView (Context context){
+
         super(context);
     }
     public PulseAnimationView (Context context, @Nullable AttributeSet attrs){
